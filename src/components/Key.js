@@ -13,3 +13,26 @@ export default function Numpad(props) {
     </button>
   );
 }
+
+// Funcion para obtener los datos del archivo .json
+
+/**
+  let datos;
+
+  function obtenerDatos(callback) {
+  fetch('keys.json')
+    .then(response => response.json())
+    .then(jsonData => {
+      datos = jsonData;
+      console.log(datos.key0.color)
+      callback(); // llamamos a la función de retorno aquí
+    });
+  }
+
+  obtenerDatos(function() {
+    console.log(datos); // imprime los datos del archivo .json en la consola
+  });
+
+  // la variable "datos" se puede utilizar aquí y en cualquier otro lugar del código a partir de este punto
+
+ **/
