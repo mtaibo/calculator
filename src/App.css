@@ -8,6 +8,10 @@ body {
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  background-color: #000;
+}
+
 #calculator {
   margin: 0 auto;
   margin-top: 200px;
