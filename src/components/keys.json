@@ -1,0 +1,78 @@
+{
+    "clear" : {
+        "name" : "AC",
+        "color" : "grey"
+    },
+    "changeSign" : {
+        "name" : "+/-",
+        "color" : "grey"
+    },
+    "module" : {
+        "name" : "%",
+        "color" : "grey"
+    },
+    "divide" : {
+        "name" : "/",
+        "color" : "orange"
+    },
+    "seven" : {
+        "name" : "7",
+        "color" : "black"
+    },
+    "eight" : {
+        "name" : "8",
+        "color" : "black"
+    },
+    "nine" : {
+        "name" : "9",
+        "color" : "black"
+    },
+    "multiply" : {
+        "name" : "x",
+        "color" : "orange"
+    },
+    "four" : {
+        "name" : "4",
+        "color" : "black"
+    },
+    "five" : {
+        "name" : "5",
+        "color" : "black"
+    },
+    "six" : {
+        "name" : "6",
+        "color" : "black"
+    },
+    "substract" : {
+        "name" : "-",
+        "color" : "orange"
+    },
+    "one" : {
+        "name" : "1",
+        "color" : "black"
+    },
+    "two" : {
+        "name" : "2",
+        "color" : "black"
+    },
+    "three" : {
+        "name" : "3",
+        "color" : "black"
+    },
+    "add" : {
+        "name" : "+",
+        "color" : "orange"
+    },
+    "zero" : {
+        "name" : "0",
+        "color" : "black"
+    },
+    "comma" : {
+        "name" : ",",
+        "color" : "black"
+    },
+    "equal" : {
+        "name" : "=",
+        "color" : "orange"
+    }
+}

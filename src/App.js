@@ -9,25 +9,25 @@ function App() {
         <div id="calculator">
           <Result></Result>
           <div id="numpad">
-            <Key value="AC" color="grey" onClick={() => Result(3)}></Key>
-            <Key value="+/-" color="grey"></Key>
-            <Key value="%" color="grey"></Key>
-            <Key value="/" color="orange"></Key>
-            <Key value="7" color="black"></Key>
-            <Key value="8" color="black"></Key>
-            <Key value="9" color="black"></Key>
-            <Key value="x" color="orange"></Key>
-            <Key value="4" color="black"></Key>
-            <Key value="5" color="black"></Key>
-            <Key value="6" color="black"></Key>
-            <Key value="-" color="orange"></Key>
-            <Key value="1" color="black"></Key>
-            <Key value="2" color="black"></Key>
-            <Key value="3" color="black"></Key>
-            <Key value="+" color="orange"></Key>
-            <Key value="0" color="black"></Key>
-            <Key value="," color="black"></Key>
-            <Key value="=" color="orange"></Key>
+            <Key value="clear"></Key>
+            <Key value="changeSign"></Key>
+            <Key value="module"></Key>
+            <Key value="divide"></Key>
+            <Key value="seven"></Key>
+            <Key value="eight"></Key>
+            <Key value="nine"></Key>
+            <Key value="multiply"></Key>
+            <Key value="four"></Key>
+            <Key value="five"></Key>
+            <Key value="six"></Key>
+            <Key value="substract"></Key>
+            <Key value="one"></Key>
+            <Key value="two"></Key>
+            <Key value="three"></Key>
+            <Key value="add"></Key>
+            <Key value="zero"></Key>
+            <Key value="comma"></Key>
+            <Key value="equal"></Key>
           </div>
         </div>
       </header>
