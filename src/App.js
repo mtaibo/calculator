@@ -1,5 +1,5 @@
 import Result from "./components/Result.js";
-import Key from "./components/Key.js";
+import GenerateKey from "./components/GenerateKey.js";
 import "./App.css";
 
 function App() {
@@ -9,25 +9,25 @@ function App() {
         <div id="calculator">
           <Result></Result>
           <div id="numpad">
-            <Key value="clear"></Key>
-            <Key value="changeSign"></Key>
-            <Key value="module"></Key>
-            <Key value="divide"></Key>
-            <Key value="seven"></Key>
-            <Key value="eight"></Key>
-            <Key value="nine"></Key>
-            <Key value="multiply"></Key>
-            <Key value="four"></Key>
-            <Key value="five"></Key>
-            <Key value="six"></Key>
-            <Key value="substract"></Key>
-            <Key value="one"></Key>
-            <Key value="two"></Key>
-            <Key value="three"></Key>
-            <Key value="add"></Key>
-            <Key value="zero"></Key>
-            <Key value="comma"></Key>
-            <Key value="equal"></Key>
+            <GenerateKey value="clear"></GenerateKey>
+            <GenerateKey value="changeSign"></GenerateKey>
+            <GenerateKey value="module"></GenerateKey>
+            <GenerateKey value="divide"></GenerateKey>
+            <GenerateKey value="seven"></GenerateKey>
+            <GenerateKey value="eight"></GenerateKey>
+            <GenerateKey value="nine"></GenerateKey>
+            <GenerateKey value="multiply"></GenerateKey>
+            <GenerateKey value="four"></GenerateKey>
+            <GenerateKey value="five"></GenerateKey>
+            <GenerateKey value="six"></GenerateKey>
+            <GenerateKey value="substract"></GenerateKey>
+            <GenerateKey value="one"></GenerateKey>
+            <GenerateKey value="two"></GenerateKey>
+            <GenerateKey value="three"></GenerateKey>
+            <GenerateKey value="add"></GenerateKey>
+            <GenerateKey value="zero"></GenerateKey>
+            <GenerateKey value="comma"></GenerateKey>
+            <GenerateKey value="equal"></GenerateKey>
           </div>
         </div>
       </header>
