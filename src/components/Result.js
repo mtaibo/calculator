@@ -1,7 +1,10 @@
 import React from "react";
 
-export default function Result() {
-  var result = 0;
+export default function Result (props) {
 
-  return <div id="result">{result}</div>;
+    var result = 0;
+
+    return (
+        <div id="result">{result}</div>
+    );
 }
